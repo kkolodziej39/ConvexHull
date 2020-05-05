@@ -6,6 +6,10 @@
 #define CONVEXHULL_RUNNER_H
 
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <stdlib.h>
+#include <stack>
 using namespace std;
 
 struct Point{
@@ -17,7 +21,9 @@ class Runner {
 public:
     void grahamScan(Point pointSet [], int n);
     void giftWrapping(Point pointSet [], int n);
-    int orientation(Point p1, Point p2, Point p3);
+    static int orientation(Point p1, Point p2, Point p3);
+    static int comparison(const void * p1, const void * p2);
+    static int distanceBetwnPoints(Point p1, Point p2);
 };
 
 
