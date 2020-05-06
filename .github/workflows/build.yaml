@@ -12,8 +12,8 @@ env:
   ###   Note - 2: If your program requires flags, put them in front of the first
   ###      input file
   ###      Example: INPUT_FILES: -f input01.txt input02.txt
-  INPUT_FILES:
-  OUTPUT_FILES:
+  INPUT_FILES: Input1.txt Input2.txt Input3.txt Input4.txt Input5.txt Input6.txt Input7.txt Input8.txt Input9.txt Input10.txt
+  OUTPUT_FILES: Convex1_Output.txt Convex2_Output.txt Convex3_Output.txt Convex4_Output.txt Convex5_Output.txt Convex6_Output.txt Convex7_Output.txt Convex8_Output.txt Convex9_Output.txt Convex10_Output.txt
 
 jobs:
   build:
