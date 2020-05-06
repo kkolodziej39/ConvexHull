@@ -302,7 +302,7 @@ int main() {
     }
     size = sizeof(pointSet8)/sizeof(pointSet8[0]);
 
-    out7.open("Conex8_Output.txt");
+    out7.open("Convex8_Output.txt");
     runner.grahamScan(pointSet8, size, out7);
     runner.giftWrapping(pointSet8, size, out7);
     out7.close();
