@@ -10,6 +10,8 @@ Note: More information can be found on Convex Hulls in this [video](https://smu.
 2. Implementation of Jarvis' March/Gift Wrapping 
 3. Python script to randomly generate a set of 2-dimensional points
 4. Output files
+5. Data comparison of Jarvis's March vs. Graham's Scan
+6. PDF Copy of a Convex Hull Presentation
 
 ***Output files which each contain (broken into a separate section for each algorithm)***
 - The number of elements the algorithm performed on
